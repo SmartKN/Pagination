@@ -1,0 +1,29 @@
+.products {
+  margin: 20px;
+  padding: 0;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.products__single {
+  height: auto;
+  padding: 20px;
+  background-color: lightblue;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+}
+.pagination > span {
+  padding: 20px 15px;
+  border: 1px solid grey;
+  cursor: pointer;
+}
+.pagination__selected {
+  background-color: grey;
+}
+.pagination__disabled {
+  opacity: 0;
+}
